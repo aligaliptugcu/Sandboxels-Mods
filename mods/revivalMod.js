@@ -7,7 +7,7 @@ elements.revival = {
     density: 2,
     desc: "It brings certain materials to life, transforming them into humans",
     tick: function(pixel) {
-        // List of elements to be targeted
+        // List of elements to be targeted.
         var targets = [
             "ash", "rotten_meat", "cooked_meat", "meat", "treated_meat", "bone", "salt", "oil"
         ];
