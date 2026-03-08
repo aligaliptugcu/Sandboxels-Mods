@@ -5,14 +5,14 @@ elements.revival = {
     category: "energy",
     state: "gas",
     density: 2,
-    desc: "Belirli materyalleri canlandırarak insana dönüştürür.",
+    desc: "It brings certain materials to life, transforming them into humans",
     tick: function(pixel) {
-        // Hedeflenecek elementlerin listesi
+        // List of elements to be targeted
         var targets = [
             "ash", "rotten_meat", "cooked_meat", "meat", "treated_meat", "bone", "salt", "oil"
         ];
 
-        // Işının bir altındaki pikseli kontrol et
+        // Check the pixel below the beam.
         var down1_x = pixel.x;
         var down1_y = pixel.y + 1;
 
